@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bean Scene</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="styles/imgs/title-logo.png">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+      
+      <div class="hero">
+        <nav class="nav">
+          <h1 class="brand">Bean Scene</h1>
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          <button class="short-btn">Order Now</button>
+        </nav>
+        
+        <div class="hero-content">
+          <p class="hero-subtitle">We've got your morning covered with</p>
+          <h2 class="hero-title">Coffee</h2>
+          <p class="hero-description">It is best to start your day with a cup of coffee. Discover the
+            best flavours coffee you will ever have. We provide the best
+            for our customers.</p>
+            <button class="btn">Order Now</button>
+        </div>
+      </div>
+      
+      <section class="discover">
+        <div class="discover-content">
+        <h2 class="discover-title">Discover the best coffee</h2>
+        <p class="discover-description">Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>
+        <button class="btn">Learn More</button>
+        </div>
+        <div class="discover-image"> 
+          <img src="styles/imgs/stylized-cup-coffee-out-coffee-beans-flat-lay 1.svg">
+        </div>
+      </section>
+
+        <img src="styles/imgs/coffee_blast.svg" class="splash-coffee-1"> 
+
+      <section class="explore">
+        <div class="explore-title-container">
+          <h2 class="explore-title">Enjoy a new blend of coffee style</h2>
+          <p class="explore-subtitle">Explore all flavours on our menu with us. There is always a new worth experiencing</p>
+        </div>
+        <div class="card-container" id="card-container"></div>
+      </section>
+
+      <section class="menu">
+        <div id="filters">
+          <button onclick="filterItems('All')">All items</button>
+          <button onclick="filterItems('Warm drink')">Warm drinks</button>
+          <button onclick="filterItems('Cold drink')">Cold drinks</button>
+          <button onclick="filterItems('Snack')">Snacks</button>
+          <button onclick="filterItems('Dessert')">Desserts</button>
+        </div>
+
+      </section>
+
+      <section class="coffee-opportunity">
+        <div class="coffee-opportunity-container">
+          <h2 class="coffee-opportunity-title">Get a chance to have an
+            Amazing morning</h2>
+          <p class="coffee-opportunity-subtitle">We are giving you are one time opportunity to
+            experience a better life with coffee.</p>
+          <button class="btn">Order Now</button>
+        </div>
+        <div class="coffee-opportunity-image">
+          <img src="styles/imgs/cup.svg">
+          <div class="coffee-opportunity-image-shadow"></div>
+        </div>
+      </section>
+
+      <section class="feedbacks">
+        <div class="feedbacks-header">
+          <h2 class="feedbacks-title">Our coffee perfection feedback</h2>
+          <p class="feedbacks-subtitle">Our customers has amazing things to say about us</p>
+        </div>
+        <img src="styles/imgs/coffee_blast.svg" class="splash-coffee-2">
+        <div class="feedbacks-carousel"></div>
+        <img src="styles/imgs/coffee_blast.svg" class="splash-coffee-3">
+      </section>
+      
+      <section class="subscribe-container">
+        <div class="subscribe-text">
+          <h2 class="subscribe-title">Subscribe to get offers!</h2>
+          <p class="subscribe-subtitle">Don’t miss out on our latest news, updates, tips and special offers</p>
+        
+          <label class="subscribe-input-btn">
+          <input type="email" placeholder="Enter your mail" class="subscribe-input"/>
+          <button class="subscribe-btn">Subscribe</button>
+          </label>
+        </div>
+        <div class="subscribe-image"><img src="styles/imgs/pngwing 1.svg"/></div>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-column-1">
+            <h2 class="brand-footer">Bean Scene</h2>
+            <p class="brand-description">Bean Scene is a welcoming coffee shop offering expertly brewed coffee, handcrafted drinks, and fresh pastries. Whether you're starting your day or taking a break, our cozy atmosphere and friendly staff make it the perfect place to relax or connect. Every cup is made with care, turning your everyday coffee moment into something truly special.</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f footer-icons"></i></a>
+             <a href="#"><i class="fab fa-instagram footer-icons"></i></a>
+              <a href="#"><i class="fab fa-twitter footer-icons"></i></a>
+             <a href="#"><i class="fab fa-youtube footer-icons"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-column-2">
+            <h2 class="column-2-title">About</h2>
+            <p class="column-subtitles">Menu Features News & Blogs Help & Supports</p>
+          </div>
+
+          <div class="footer-column-3">
+            <h2 class="column-3-title">Company</h2>
+            <p class="column-subtitles">How we work Terms of service Pricing FAQ</p>
+          </div>
+
+          <div class="footer-column-4">
+            <h2 class="column-4-title">Contact Us</h2>
+            <p class="column-subtitles">Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</p>
+            <p class="column-subtitles">+1 202-918-2132</p>
+            <p class="column-subtitles">beanscene@mail.com</p>
+            <p class="column-subtitles">www.beanscene.com</p>
+          </div>
+        </div>
+      </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>
