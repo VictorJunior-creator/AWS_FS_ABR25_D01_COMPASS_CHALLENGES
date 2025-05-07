@@ -59,11 +59,22 @@
 
       <section class="menu">
         <div id="filters">
-          <button onclick="filterItems('All')">All items</button>
-          <button onclick="filterItems('Warm drink')">Warm drinks</button>
-          <button onclick="filterItems('Cold drink')">Cold drinks</button>
-          <button onclick="filterItems('Snack')">Snacks</button>
-          <button onclick="filterItems('Dessert')">Desserts</button>
+          <button onclick="clicked(this)" class="selected-button no-selected-button"id="All">All items</button>
+          <button onclick="clicked(this)" class="no-selected-button"id="Warm">Warm drinks</button>
+          <button onclick="clicked(this)" class="no-selected-button"id="Cold">Cold drinks</button>
+          <button onclick="clicked(this)" class="no-selected-button"id="Snack">Snacks</button>
+          <button onclick="clicked(this)" class="no-selected-button"id="Dessert">Desserts</button>
+        </div>
+
+        <div class="table">
+          <div class="initial-row">
+            <p>Item</p>
+            <p>Type</p>
+            <p>Price</p>
+          </div>
+          <div class="table-rows">
+
+          </div>
         </div>
 
       </section>
@@ -141,5 +152,6 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="scripts/index.js"></script>
+        <script src="scripts/subscribe.js"></script>
     </body>
 </html>
